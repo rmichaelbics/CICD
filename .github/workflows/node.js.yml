@@ -27,7 +27,6 @@ jobs:
     - run: npm install
     - run: npm ci
     - run: npm run build 
-    - run: npm test
       env:
         CI: true
   windows-build:
@@ -47,6 +46,5 @@ jobs:
     - run: npm install
     - run: npm ci
     - run: npm run build 
-    - run: npm test
       env:
         CI: true
